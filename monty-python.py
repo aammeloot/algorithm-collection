@@ -36,4 +36,3 @@ for single_line in text_lines:
 words = sorted(word_frequencies.keys())
 for single_word in words:
     print(single_word,"appears",word_frequencies[single_word],"time(s).")
-
