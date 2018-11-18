@@ -15,11 +15,11 @@ word_frequencies = {}
 # Opening the text file in read mode
 f = open("monty_python.txt")
 # Save all the lines in a single list
-text_lines = f.readlines()
+all_lines = f.readlines()
 f.close()
 
 # Loop: all the individual lines
-for single_line in text_lines:
+for single_line in all_lines:
     # Split all the words from a line
     line_words = single_line.split()
     # Nested loop: all the word in a line
